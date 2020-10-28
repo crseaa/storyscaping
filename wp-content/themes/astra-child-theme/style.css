@@ -58,7 +58,20 @@ body {
     font-weight: 600;
 }
 
-
 #knap {
     border: none !important;
+}
+
+
+/*DENNE KNAP ER STYLET INDIVIDUELT GRUNDET EN SHORTCODE FRA WP*/
+button#wpforms-submit-5 {
+    background-color: #a79b8f;
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 16px;
 }
