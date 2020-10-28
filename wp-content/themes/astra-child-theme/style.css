@@ -1,0 +1,38 @@
+/*
+ Theme Name:   Astra Child Theme
+ Theme URI:    https://wpastra.com/
+ Description:  Astra Child Theme
+ Author:       Gruppe 1 - Emma, Sisse, Jacob og Christian
+ Author URI:   chsander.com
+ Template:     astra
+ Version:      1.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenchild
+*/
+
+
+body {
+    background-color: #FBF7F3 !important;
+}
+
+h1 {
+    color: aqua;
+}
+
+/*FIXED MENU*/  
+.main-header-bar {
+  z-index: 4;
+  position: fixed;
+  line-height: 4;
+  width: 100%;
+  height: 85px;
+  opacity: 80%;
+  border: none;
+
+}
+
+#knap{
+    border: none !important;
+}
