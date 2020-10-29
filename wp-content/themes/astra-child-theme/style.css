@@ -1,69 +1,45 @@
 /*
- Theme Name:   Astra Child Theme
- Theme URI:    https://wpastra.com/
- Description:  Astra Child Theme
- Author:       Gruppe 1 - Emma, Sisse, Jacob og Christian
- Author URI:   chsander.com
- Template:     astra
- Version:      1.1.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twentyfifteenchild
+ Theme Name: Astra Child Theme
+ Theme URI: https://wpastra.com/
+ Description: Astra Child Theme
+ Author: Emma, Sisse, Jacob og Christian
+ Author URI: sissehauskov.dk
+ Template: astra
+ Version: 1.1.7
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain: astrachild
 */
-
-
-/*
- Theme Name:   Astra Child Theme
- Theme URI:    https://wpastra.com/
- Description:  Astra Child Theme
- Author:       Gruppe 1 - Emma, Sisse, Jacob og Christian
- Author URI:   chsander.com
- Template:     astra
- Version:      1.1.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twentyfifteenchild
-*/
-
 
 body {
-    background-color: #FBF7F3 !important;
+    background-color: #f8f3f0 !important;
 }
 
-
-/*FIXED MENU*/
-.main-header-bar {
-    z-index: 4;
-    position: fixed;
-    line-height: 4;
-    width: 100%;
-    border: none;
-    #FBF7F3
-}
-
-/*NAVIGATION ÆNDRINGER*/
-.main-header-bar a {
-    font-family: raleway;
-}
-
-.ast-theme-transparent-header .main-header-menu,
-.ast-theme-transparent-header .main-header-menu .menu-link,
-.ast-theme-transparent-header .ast-masthead-custom-menu-items,
-.ast-theme-transparent-header .ast-masthead-custom-menu-items a,
-.ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle,
-.ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle {
+.ast-theme-transparent-header .main-header-menu, .ast-theme-transparent-header .main-header-menu .menu-link, .ast-theme-transparent-header .ast-masthead-custom-menu-items, .ast-theme-transparent-header .ast-masthead-custom-menu-items a, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle {
     font-size: 15px;
     font-weight: 600;
 }
 
-#knap {
+/*FIXED MENU*/  
+.main-header-bar {
+  z-index: 4;
+  position: fixed;
+  line-height: 4;
+  width: 100%;
+  border: none;
+}
+
+#knap{
     border: none !important;
 }
 
+/*NAVIGATION ÆNDRINGER*/ 
+.ast-theme-transparent-header .main-header-menu, .ast-theme-transparent-header .main-header-menu .menu-link, .ast-theme-transparent-header .ast-masthead-custom-menu-items, .ast-theme-transparent-header .ast-masthead-custom-menu-items a, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle {
+    font-size: 17px;
+}
 
-/*DENNE KNAP ER STYLET INDIVIDUELT GRUNDET EN SHORTCODE FRA WP*/
+/*KNAP STYLING I WORDPRESS SHORTCODE*/
 button#wpforms-submit-5 {
     background-color: #a79b8f;
     border-radius: 15px 15px 15px 15px;
@@ -74,4 +50,8 @@ button#wpforms-submit-5 {
     padding-right: 45px;
     padding-left: 45px;
     padding-bottom: 16px;
+}
+/*HOVER EFFEKT PÅ ALLE LINKS*/
+.elementor-kit-38 a:hover {
+    color: #4d5d58;
 }
